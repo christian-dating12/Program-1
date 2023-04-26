@@ -35,5 +35,8 @@ for i in integers:
         odd.append(i)
 
 # write to even.txt
+with open("even.txt", "w") as f:
+    for numbers in even:
+        f.write(numbers)
 # write to odd.txt
 # START
