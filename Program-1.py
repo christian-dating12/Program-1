@@ -14,7 +14,17 @@ greet = "GOOD DAY!"
 print("\033[92m" + pyfiglet.figlet_format(greet, font = "Thin"))
 
 # Pseudocode
+import random
+even = []
+odd = []
 # open numbers.txt (read), even.txt (append), odd.txt(append)
+with open("numbers.txt", "w") as f:
+    for i in range (20):
+        num = random.randint(0,20)
+        f.write(str(num) + "\n")
+
+with open("numbers.txt", "r") as f:
+    integers = f.readlines()
 # read numbers.txt
 # if even
 # if odd
