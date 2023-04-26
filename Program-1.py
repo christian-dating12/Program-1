@@ -12,3 +12,12 @@ print("\033[90m=" * 80)
 import pyfiglet
 greet = "GOOD DAY!"
 print("\033[92m" + pyfiglet.figlet_format(greet, font = "Thin"))
+
+# Pseudocode
+# open numbers.txt (read), even.txt (append), odd.txt(append)
+# read numbers.txt
+# if even
+# if odd
+# write to even.txt
+# write to odd.txt
+# START
