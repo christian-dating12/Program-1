@@ -27,7 +27,13 @@ with open("numbers.txt", "r") as f:
     integers = f.readlines()
 # read numbers.txt
 # if even
+for i in integers:
+    if int(i) % 2 == 0:
+        even.append(i)
 # if odd
+    else:
+        odd.append(i)
+
 # write to even.txt
 # write to odd.txt
 # START
