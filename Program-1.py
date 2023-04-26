@@ -39,4 +39,7 @@ with open("even.txt", "w") as f:
     for numbers in even:
         f.write(numbers)
 # write to odd.txt
+with open("odd.text", "w") as f:
+    for numbers in odd:
+        f.write(numbers)
 # START
