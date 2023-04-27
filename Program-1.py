@@ -42,4 +42,6 @@ with open("even.txt", "w") as f:
 with open("odd.text", "w") as f:
     for numbers in odd:
         f.write(numbers)
+
 # START
+# Open txt files
